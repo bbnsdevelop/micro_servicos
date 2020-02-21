@@ -1,0 +1,12 @@
+server:
+  port: 8082
+spring:
+  boot:
+    admin:
+      url: http://localhost:8093
+      username: admin
+      password: admin
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8090/eureka

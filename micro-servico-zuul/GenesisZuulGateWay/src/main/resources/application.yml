@@ -1,0 +1,13 @@
+server:
+  port: 8080
+  
+zuul:
+  routes:
+    students:
+      url: http://localhost:8081
+    lecturers:
+      url: http://localhost:8082
+
+ribbon:
+  eureka:
+    enabled: false
